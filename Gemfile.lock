@@ -128,7 +128,8 @@ GEM
       byebug (~> 11.0)
       pry (~> 0.10)
     public_suffix (4.0.3)
-    puma (3.12.2)
+    puma (4.3.9)
+      nio4r (~> 2.0)
     rack (2.1.2)
     rack-proxy (0.6.5)
       rack
@@ -246,7 +247,7 @@ DEPENDENCIES
   mysql2
   pry (~> 0.12.2)
   pry-byebug (~> 3.8)
-  puma (~> 3.11)
+  puma (~> 4.3)
   rails (~> 5.2.4)
   rb-readline
   react-rails
